@@ -1,0 +1,864 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.warning-alert {
+  background-color: #223a95;
+  text-align: center;
+  padding-top: 8px;
+  font-family: "Inter", sans-serif;
+  height: 36px;
+}
+
+.warning-alert p {
+  color: white;
+  font-size: 13px;
+}
+
+.main-menu {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 12px;
+  padding-left: 30px;
+  height: 22px;
+}
+
+.main-menu a {
+  text-decoration: none;
+}
+
+.main-menu .links-about {
+  padding-top: 10px;
+}
+
+.main-menu .links-about a {
+  color: currentColor;
+  padding-left: 10px;
+}
+
+.main-menu .links-about a:hover {
+  color: #2bbef9;
+}
+
+.main-menu .menus-about {
+  width: 58%;
+}
+
+.main-menu .menus-about span {
+  padding-top: 10px;
+}
+
+.main-menu .menus-about img {
+  height: 20px;
+}
+
+.main-menu .menus-about .help {
+  padding-top: 11px;
+}
+
+.main-menu .menus-about .help a {
+  color: #2bbef9;
+}
+
+.main-menu .menus-about .vl {
+  border-left: 1px solid #979797;
+  height: 38px;
+}
+
+.main-menu .menus-about .menus-dropdowns {
+  padding-top: 10px;
+}
+
+.main-menu .menus-about .menus-dropdowns .dropbtn {
+  background-color: white;
+  color: black;
+  font-size: 12px;
+  border: none;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+.main-menu .menus-about .menus-dropdowns .dropbtn img {
+  height: 12px;
+}
+
+.main-menu .menus-about .menus-dropdowns .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.main-menu .menus-about .menus-dropdowns .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 100px;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.main-menu .menus-about .menus-dropdowns .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.main-menu .menus-about .menus-dropdowns .dropdown-content a:hover {
+  background-color: #f1f1f1;
+  color: #2bbef9;
+}
+
+.main-menu .menus-about .menus-dropdowns .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.main-menu .menus-about .menus-dropdowns .dropdown:hover .dropbtn {
+  background-color: white;
+  color: #2bbef9;
+}
+
+.logo-wrapper {
+  margin-top: 15px;
+  padding-left: 38.4px;
+}
+
+.logo-wrapper a {
+  text-decoration: none;
+}
+
+.logo-wrapper a span {
+  font-size: .6875rem;
+  color: #979797;
+}
+
+.logo-wrapper img {
+  height: 43.8px;
+  cursor: pointer;
+}
+
+.location-wrapper .btn-modal {
+  position: relative;
+  background-color: white;
+  color: #233a95;
+  border: 1px solid rgba(151, 151, 151, 0.5);
+  margin-top: 25px;
+  margin-left: 45px;
+  height: 54px;
+  border-radius: 5px;
+  width: 180px;
+}
+
+.location-wrapper .btn-modal strong {
+  font-size: 13px;
+  color: #223a95;
+  padding-right: 50px;
+}
+
+.location-wrapper .btn-modal .fa-solid {
+  font-size: 13px;
+  position: absolute;
+  top: 20px;
+  right: 12px;
+}
+
+.location-wrapper .btn-modal span {
+  font-size: .6875rem;
+  margin: 0;
+  color: #979797;
+  padding-right: 82px;
+}
+
+.location-wrapper .btn-modal:hover {
+  -webkit-box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.1), 0 10px 35px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.1), 0 10px 35px 0 rgba(0, 0, 0, 0.1);
+}
+
+.location-wrapper .btn-modal:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.location-wrapper .modal-body {
+  height: 400px;
+  overflow-y: scroll;
+}
+
+.location-wrapper .modal-body span {
+  float: right;
+}
+
+.location-wrapper .modal-body .modals-search {
+  margin-left: 32px;
+  margin-bottom: 30px;
+  padding-left: 10px;
+  padding-top: 7px;
+  background-color: #f3f4f7;
+  width: 417px;
+  border-radius: 5px;
+}
+
+.location-wrapper .modal-body .search {
+  background-color: transparent;
+}
+
+.location-wrapper .modal-body .search::-webkit-input-placeholder {
+  color: #979797;
+}
+
+.location-wrapper .modal-body .search:-ms-input-placeholder {
+  color: #979797;
+}
+
+.location-wrapper .modal-body .search::-ms-input-placeholder {
+  color: #979797;
+}
+
+.location-wrapper .modal-body .search::placeholder {
+  color: #979797;
+}
+
+.location-wrapper .modal-body .search:focus {
+  border: none;
+}
+
+.location-wrapper .modal-body .search:focus-visible {
+  outline: none;
+}
+
+.search-wrapper {
+  margin-top: 25px;
+  margin-left: 45px;
+  border-radius: 5px;
+  background-color: #f3f4f7;
+}
+
+.search-wrapper .search {
+  height: 54px;
+  width: 95%;
+  background-color: transparent;
+  border: none;
+  padding-left: 20px;
+}
+
+.search-wrapper .search::-webkit-input-placeholder {
+  color: #979797;
+}
+
+.search-wrapper .search:-ms-input-placeholder {
+  color: #979797;
+}
+
+.search-wrapper .search::-ms-input-placeholder {
+  color: #979797;
+}
+
+.search-wrapper .search::placeholder {
+  color: #979797;
+}
+
+.search-wrapper .search:focus {
+  border: none;
+}
+
+.search-wrapper .search:focus-visible {
+  outline: none;
+}
+
+.search-wrapper i {
+  padding-top: 15px;
+  padding-right: 20px;
+  font-size: 24px;
+}
+
+.profile-busket {
+  margin-top: 25px;
+  margin-left: 20px;
+}
+
+.profile-busket .profile {
+  margin-top: 10px;
+  border-radius: 50%;
+  border: 1px solid rgba(151, 151, 151, 0.5);
+  width: 40px;
+  height: 40px;
+  padding-left: 12px;
+  padding-top: 6px;
+  cursor: pointer;
+}
+
+.profile-busket .busket-wrapper {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.profile-busket .busket-wrapper span {
+  margin-top: 8px;
+}
+
+.profile-busket .busket-wrapper .busket-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.profile-busket .busket-wrapper .busket-dropdown:hover .busket-content {
+  display: block;
+}
+
+.profile-busket .busket-wrapper .busket-dropdown .busket-btn {
+  margin-left: 10px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  padding-left: 11px;
+  padding-top: 7px;
+  cursor: pointer;
+  color: #ea2b0f;
+  background-color: #ffe1e0;
+}
+
+.profile-busket .busket-wrapper .busket-dropdown .sub {
+  background-color: #ea2b0f;
+  color: white;
+  border-radius: 50%;
+  height: 17px;
+  width: 17px;
+  padding-left: 5px;
+  padding-top: 8px;
+  position: absolute;
+  left: 35px;
+  bottom: 25px;
+}
+
+.profile-busket .busket-wrapper .busket-dropdown .busket-content {
+  min-width: 18.75rem;
+  max-width: 20rem;
+  height: 270px;
+  border: 1px solid rgba(151, 151, 151, 0.5);
+  border-radius: 5px;
+  text-align: center;
+  font-size: 12px;
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  right: 10px;
+  padding-top: 40px;
+}
+
+.profile-busket .busket-wrapper .busket-dropdown .busket-content img {
+  height: 70px;
+}
+
+.profile-busket .busket-wrapper .busket-dropdown .busket-content .first {
+  padding-bottom: 70px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.profile-busket .busket-wrapper .busket-dropdown .busket-content hr {
+  border: 1px;
+}
+
+.all-categories {
+  margin-top: 30px;
+  padding-left: 36px;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.all-categories:hover .all-categories-content {
+  display: block;
+}
+
+.all-categories .all-categories-btn {
+  width: 213px;
+  height: 3.125rem;
+  background-color: #2bbef9;
+  color: #ffffff;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 3.125rem;
+  padding-top: 12px;
+}
+
+.all-categories .all-categories-btn i {
+  padding-left: 14px;
+  font-size: 14px;
+}
+
+.all-categories .products-count {
+  background-color: #f3f4f7;
+  font-size: 10px;
+  color: #8f8f8f;
+  font-weight: 500;
+  width: 120px;
+  text-align: center;
+  height: 25px;
+  border-radius: 3.125rem;
+  border: 1px solid white;
+  position: absolute;
+  top: 37px;
+  left: 70px;
+  padding-top: 3px;
+  cursor: pointer;
+}
+
+.all-categories .all-categories-content {
+  border: 1px solid rgba(151, 151, 151, 0.5);
+  background-color: white;
+  margin-top: 10px;
+  width: 280px;
+  padding-left: 20px;
+  padding-top: 20px;
+  font-size: 14px;
+  color: #2b2b2b;
+  z-index: 1;
+  position: absolute;
+  display: none;
+}
+
+.all-categories .all-categories-content .fruits-vegetables {
+  position: relative;
+  width: 260px;
+  height: 40px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.all-categories .all-categories-content .fruits-vegetables:hover .fruits-vegetables-content {
+  display: block;
+}
+
+.all-categories .all-categories-content .fruits-vegetables .fruits-vegetables-btn {
+  cursor: pointer;
+}
+
+.all-categories .all-categories-content .fruits-vegetables .fruits-vegetables-btn:hover {
+  color: #2bbef9;
+}
+
+.all-categories .all-categories-content .fruits-vegetables .fruits-vegetables-content {
+  border: 1px solid rgba(139, 139, 139, 0.5);
+  background-color: white;
+  position: absolute;
+  top: -21px;
+  left: 259px;
+  height: 445px;
+  z-index: 1;
+  display: none;
+  width: 280px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.all-categories .all-categories-content .fruits-vegetables .fruits-vegetables-content p {
+  cursor: pointer;
+}
+
+.all-categories .all-categories-content .fruits-vegetables .fruits-vegetables-content p:hover {
+  color: #2bbef9;
+}
+
+.all-categories .all-categories-content .meats-seafood {
+  height: 40px;
+}
+
+.all-categories .all-categories-content .meats-seafood .meats-seafood-btn {
+  cursor: pointer;
+}
+
+.all-categories .all-categories-content .meats-seafood .meats-seafood-btn:hover {
+  color: #2bbef9;
+}
+
+.all-categories .all-categories-content .breakfast-dairy {
+  height: 40px;
+}
+
+.all-categories .all-categories-content .breakfast-dairy .breakfast-dairy-btn {
+  cursor: pointer;
+}
+
+.all-categories .all-categories-content .breakfast-dairy .breakfast-dairy-btn:hover {
+  color: #2bbef9;
+}
+
+.all-categories .all-categories-content .beverages {
+  width: 260px;
+  height: 40px;
+  position: relative;
+}
+
+.all-categories .all-categories-content .beverages:hover .beverages-content {
+  display: block;
+}
+
+.all-categories .all-categories-content .beverages .beverages-btn {
+  cursor: pointer;
+}
+
+.all-categories .all-categories-content .beverages .beverages-btn:hover {
+  color: #2bbef9;
+}
+
+.all-categories .all-categories-content .beverages .beverages-content {
+  border: 1px solid rgba(139, 139, 139, 0.5);
+  background-color: white;
+  position: absolute;
+  top: -141px;
+  left: 259px;
+  height: 485px;
+  z-index: 1;
+  display: none;
+  width: 280px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.all-categories .all-categories-content .beverages .beverages-content p {
+  cursor: pointer;
+}
+
+.all-categories .all-categories-content .beverages .beverages-content p:hover {
+  color: #2bbef9;
+}
+
+.all-categories .all-categories-content .breads-bakery {
+  height: 40px;
+}
+
+.all-categories .all-categories-content .breads-bakery .breads-bakery-btn {
+  cursor: pointer;
+}
+
+.all-categories .all-categories-content .breads-bakery .breads-bakery-btn:hover {
+  color: #2bbef9;
+}
+
+.all-categories .all-categories-content .frozen-foods {
+  height: 40px;
+}
+
+.all-categories .all-categories-content .frozen-foods .frozen-foods-btn {
+  cursor: pointer;
+}
+
+.all-categories .all-categories-content .frozen-foods .frozen-foods-btn:hover {
+  color: #2bbef9;
+}
+
+.all-categories .all-categories-content .biscuits-snacks {
+  height: 40px;
+}
+
+.all-categories .all-categories-content .biscuits-snacks .biscuits-snacks-btn {
+  cursor: pointer;
+}
+
+.all-categories .all-categories-content .biscuits-snacks .biscuits-snacks-btn:hover {
+  color: #2bbef9;
+}
+
+.all-categories .all-categories-content .grocery-staples {
+  height: 40px;
+}
+
+.all-categories .all-categories-content .grocery-staples .grocery-staples-btn {
+  cursor: pointer;
+}
+
+.all-categories .all-categories-content .grocery-staples .grocery-staples-btn:hover {
+  color: #2bbef9;
+}
+
+.all-categories .all-categories-content hr {
+  width: 90%;
+}
+
+.all-categories .all-categories-content .value-day-btn {
+  color: black;
+  cursor: pointer;
+}
+
+.all-categories .all-categories-content .value-day-btn:hover {
+  color: #2bbef9;
+}
+
+.all-categories .all-categories-content .top-offers {
+  color: black;
+  cursor: pointer;
+}
+
+.all-categories .all-categories-content .top-offers:hover {
+  color: #2bbef9;
+}
+
+.all-categories .all-categories-content .arrivals {
+  color: black;
+  cursor: pointer;
+}
+
+.all-categories .all-categories-content .arrivals:hover {
+  color: #2bbef9;
+}
+
+.home-page-wrapper {
+  position: relative;
+  height: 60px;
+}
+
+.home-page-wrapper:hover .home-page-content {
+  display: block;
+}
+
+.home-page-wrapper .home-page {
+  margin-top: 30px;
+  border-radius: 3.125rem;
+  width: 80px;
+  height: 40px;
+  text-align: center;
+  padding-top: 8px;
+}
+
+.home-page-wrapper .home-page:hover {
+  background-color: #f0faff;
+}
+
+.home-page-wrapper .home-page:hover a {
+  color: #2bbef9;
+}
+
+.home-page-wrapper .home-page a {
+  text-decoration: none;
+  color: black;
+}
+
+.home-page-wrapper .home-page-content {
+  border: 1px solid rgba(151, 151, 151, 0.5);
+  background-color: white;
+  width: 200px;
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  z-index: 1;
+  position: absolute;
+  left: -8px;
+  top: 60px;
+  display: none;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.home-page-wrapper .home-page-content a {
+  text-decoration: none;
+  color: #2b2b2b;
+  font-size: 14px;
+}
+
+.home-page-wrapper .home-page-content a:hover {
+  color: #2bbef9;
+}
+
+.shop-page-wrapper {
+  position: relative;
+  height: 60px;
+}
+
+.shop-page-wrapper:hover .shop-page-content {
+  display: block;
+}
+
+.shop-page-wrapper .shop-page {
+  margin-top: 30px;
+  border-radius: 3.125rem;
+  width: 80px;
+  height: 40px;
+  text-align: center;
+  padding-top: 8px;
+}
+
+.shop-page-wrapper .shop-page:hover {
+  background-color: #f0faff;
+}
+
+.shop-page-wrapper .shop-page:hover a {
+  color: #2bbef9;
+}
+
+.shop-page-wrapper .shop-page a {
+  text-decoration: none;
+  color: black;
+}
+
+.shop-page-wrapper .shop-page-content {
+  position: absolute;
+  display: none;
+  z-index: 1;
+  width: 1536px;
+  background-color: white;
+  left: -560px;
+  top: 60px;
+  padding-left: 50px;
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+
+.shop-page-wrapper .shop-page-content .first {
+  color: #223a95;
+  font-weight: 500;
+  display: inline-block;
+  padding-bottom: 20px;
+}
+
+.shop-page-wrapper .shop-page-content a {
+  text-decoration: none;
+  color: #2b2b2b;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+.shop-page-wrapper .shop-page-content a:hover {
+  color: #2bbef9;
+}
+
+.shop-page-wrapper .shop-page-content .shop-lists:hover .first {
+  color: #2bbef9;
+}
+
+.shop-page-wrapper .shop-page-content .product-detail:hover .first {
+  color: #2bbef9;
+}
+
+.shop-page-wrapper .shop-page-content .product-types:hover .first {
+  color: #2bbef9;
+}
+
+.shop-page-wrapper .shop-page-content .shop-pages:hover .first {
+  color: #2bbef9;
+}
+
+.shop-page-wrapper .shop-page-content .shop-layouts:hover .first {
+  color: #2bbef9;
+}
+
+.meats-seafood-pages {
+  margin-top: 30px;
+  border-radius: 3.125rem;
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  padding-top: 8px;
+}
+
+.meats-seafood-pages:hover {
+  background-color: #f0faff;
+}
+
+.meats-seafood-pages:hover a {
+  color: #2bbef9;
+}
+
+.meats-seafood-pages a {
+  text-decoration: none;
+  color: black;
+}
+
+.bakery-page {
+  margin-top: 30px;
+  border-radius: 3.125rem;
+  width: 100px;
+  height: 40px;
+  text-align: center;
+  padding-top: 8px;
+}
+
+.bakery-page:hover {
+  background-color: #f0faff;
+}
+
+.bakery-page:hover a {
+  color: #2bbef9;
+}
+
+.bakery-page a {
+  text-decoration: none;
+  color: black;
+}
+
+.beverages-page {
+  margin-top: 30px;
+  border-radius: 3.125rem;
+  width: 140px;
+  height: 40px;
+  text-align: center;
+  padding-top: 8px;
+}
+
+.beverages-page:hover {
+  background-color: #f0faff;
+}
+
+.beverages-page:hover a {
+  color: #2bbef9;
+}
+
+.beverages-page a {
+  text-decoration: none;
+  color: black;
+}
+
+.blog-page {
+  margin-top: 30px;
+  margin-left: -70px;
+  border-radius: 3.125rem;
+  width: 70px;
+  height: 40px;
+  text-align: center;
+  padding-top: 8px;
+}
+
+.blog-page:hover {
+  background-color: #f0faff;
+}
+
+.blog-page:hover a {
+  color: #2bbef9;
+}
+
+.blog-page a {
+  text-decoration: none;
+  color: black;
+}
+
+.contact-page {
+  margin-top: 30px;
+  margin-left: -90px;
+  border-radius: 3.125rem;
+  width: 90px;
+  height: 40px;
+  text-align: center;
+  padding-top: 8px;
+}
+
+.contact-page:hover {
+  background-color: #f0faff;
+}
+
+.contact-page:hover a {
+  color: #2bbef9;
+}
+
+.contact-page a {
+  text-decoration: none;
+  color: black;
+}
+/*# sourceMappingURL=home.css.map */
