@@ -105,7 +105,7 @@ $primary-font: "Inter", sans-serif;
     a{
         text-decoration: none;
         span{
-            font-size: .6875rem;
+            font-size: 8px;
             color: rgb(151, 151, 151);
         }
     }
@@ -331,7 +331,7 @@ $primary-font: "Inter", sans-serif;
         padding-top: 20px;
         font-size: 14px;
         color: rgb(43, 43, 43);
-        z-index: 1;
+        z-index: 100;
         position: absolute;
         display: none;
         .fruits-vegetables{
@@ -356,7 +356,7 @@ $primary-font: "Inter", sans-serif;
                 top: -21px;
                 left: 259px;
                 height: 445px;
-                z-index: 1;
+                z-index: 100;
                 display: none;
                 width: 280px;
                 padding-left: 20px;
@@ -407,7 +407,7 @@ $primary-font: "Inter", sans-serif;
                 top: -141px;
                 left: 259px;
                 height: 485px;
-                z-index: 1;
+                z-index: 100;
                 display: none;
                 width: 280px;
                 padding-left: 20px;
@@ -513,7 +513,7 @@ $primary-font: "Inter", sans-serif;
         padding-left: 30px;
         padding-top: 30px;
         padding-bottom: 30px;
-        z-index: 1;
+        z-index: 100;
         position: absolute;
         left: -8px;
         top: 60px;
@@ -557,12 +557,12 @@ $primary-font: "Inter", sans-serif;
     .shop-page-content{
         position: absolute;
         display: none;
-        z-index: 1;
-        width: 1536px;
+        z-index: 100;
+        width: 1519.5px;
         background-color: white;
-        left: -560px;
+        left: -585px;
         top: 60px;
-        padding-left: 50px;
+        padding-left: 80px;
         padding-top: 40px;
         padding-bottom: 50px;
         .first{
@@ -697,5 +697,192 @@ $primary-font: "Inter", sans-serif;
     a{
         text-decoration: none;
         color: black;
+    }
+}
+#carousel{
+    .carousel{
+        .carousel-item{
+            position: relative;
+            .first{
+                color: rgb(43, 43, 43);
+                top: 50px;
+                left: -400px;
+                position: absolute;
+                .offer{
+                    font-size: 14px;
+                    b{
+                        background: linear-gradient(90deg, rgba(0, 184, 83, 0.2) 0%, rgba(32, 55, 88, 0) 100%);
+                        color: #038e42;
+                        border-radius: 3.125rem;
+                        font-size: 20px;
+                    }
+                }
+                h1{
+                    font-size: 48px;
+                    font-weight: 700;
+                }
+                .price{
+                    font-size: 38px;
+                    color: #d51243;
+                }
+                button{
+                    border: none;
+                    border-radius: 3.125rem;
+                    background-color: #2bbef9;
+                    color: white;
+                    height: 40px;
+                    width: 133px;
+                }
+            }
+            .second{
+                color: rgb(43, 43, 43);
+                top: 50px;
+                left: -400px;
+                position: absolute;
+                .offer{
+                    font-size: 14px;
+                    b{
+                        background: linear-gradient(90deg, rgba(0, 184, 83, 0.2) 0%, rgba(32, 55, 88, 0) 100%);
+                        color: #038e42;
+                        border-radius: 3.125rem;
+                        font-size: 20px;
+                    }
+                }
+                h1{
+                    font-size: 48px;
+                    font-weight: 700;
+                }
+                .price{
+                    font-size: 38px;
+                    color: #d51243;
+                }
+                button{
+                    border: none;
+                    border-radius: 3.125rem;
+                    background-color: #2bbef9;
+                    color: white;
+                    height: 40px;
+                    width: 133px;
+                }
+            }
+        }
+    }
+}
+
+#category-card{
+    .beverages{
+        height: 290.4px;
+        width: 190px;
+        border: 1px solid rgba(151, 151, 151, 0.5);
+        text-align: center;
+        padding-top: 30px;
+        a{
+            text-decoration: none;
+            color: #202435;
+            font-size: 14px;
+            font-weight: 600;
+            font-family: $primary-font;
+            cursor: pointer;
+        }
+        p{
+            font-size: 12px;
+            font-family: $primary-font;
+        }
+        img{
+            height: 160px;
+            width: 155px;
+        }
+    }
+    .biscuits-snacks{
+        height: 145.2px;
+        width: 239px;
+        border: 1px solid rgba(151, 151, 151, 0.5);
+        padding-top: 30px;
+        padding-left: 20px;
+        img{
+            height: 70px;
+            width: 70px;
+        }
+        a{
+            text-decoration: none;
+            color: #202435;
+            font-size: 14px;
+            font-weight: 600;
+            font-family: $primary-font;
+            cursor: pointer;
+        }
+        p{
+            font-size: 12px;
+            font-family: $primary-font;
+        }
+    }
+    .breads-bakery{
+        height: 145.2px;
+        width: 239px;
+        border: 1px solid rgba(151, 151, 151, 0.5);
+        padding-top: 30px;
+        padding-left: 20px;
+        img{
+            height: 70px;
+            width: 70px;
+        }
+        a{
+            text-decoration: none;
+            color: #202435;
+            font-size: 14px;
+            font-weight: 600;
+            font-family: $primary-font;
+            cursor: pointer;
+        }
+        p{
+            font-size: 12px;
+            font-family: $primary-font;
+        }
+    }
+    .breakfast-dairy{
+        height: 145.2px;
+        width: 239px;
+        border: 1px solid rgba(151, 151, 151, 0.5);
+        padding-top: 30px;
+        padding-left: 20px;
+        img{
+            height: 70px;
+            width: 70px;
+        }
+        a{
+            text-decoration: none;
+            color: #202435;
+            font-size: 14px;
+            font-weight: 600;
+            font-family: $primary-font;
+            cursor: pointer;
+        }
+        p{
+            font-size: 12px;
+            font-family: $primary-font;
+        }
+    }
+    .frozen-foods{
+        height: 145.2px;
+        width: 239px;
+        border: 1px solid rgba(151, 151, 151, 0.5);
+        padding-top: 30px;
+        padding-left: 20px;
+        img{
+            height: 70px;
+            width: 70px;
+        }
+        a{
+            text-decoration: none;
+            color: #202435;
+            font-size: 14px;
+            font-weight: 600;
+            font-family: $primary-font;
+            cursor: pointer;
+        }
+        p{
+            font-size: 12px;
+            font-family: $primary-font;
+        }
     }
 }

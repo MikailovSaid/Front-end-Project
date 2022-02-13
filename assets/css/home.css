@@ -133,7 +133,7 @@
 }
 
 .logo-wrapper a span {
-  font-size: .6875rem;
+  font-size: 8px;
   color: #979797;
 }
 
@@ -421,7 +421,7 @@
   padding-top: 20px;
   font-size: 14px;
   color: #2b2b2b;
-  z-index: 1;
+  z-index: 100;
   position: absolute;
   display: none;
 }
@@ -453,7 +453,7 @@
   top: -21px;
   left: 259px;
   height: 445px;
-  z-index: 1;
+  z-index: 100;
   display: none;
   width: 280px;
   padding-left: 20px;
@@ -517,7 +517,7 @@
   top: -141px;
   left: 259px;
   height: 485px;
-  z-index: 1;
+  z-index: 100;
   display: none;
   width: 280px;
   padding-left: 20px;
@@ -649,7 +649,7 @@
   padding-left: 30px;
   padding-top: 30px;
   padding-bottom: 30px;
-  z-index: 1;
+  z-index: 100;
   position: absolute;
   left: -8px;
   top: 60px;
@@ -702,12 +702,12 @@
 .shop-page-wrapper .shop-page-content {
   position: absolute;
   display: none;
-  z-index: 1;
-  width: 1536px;
+  z-index: 100;
+  width: 1519.5px;
   background-color: white;
-  left: -560px;
+  left: -585px;
   top: 60px;
-  padding-left: 50px;
+  padding-left: 80px;
   padding-top: 40px;
   padding-bottom: 50px;
 }
@@ -860,5 +860,220 @@
 .contact-page a {
   text-decoration: none;
   color: black;
+}
+
+#carousel .carousel .carousel-item {
+  position: relative;
+}
+
+#carousel .carousel .carousel-item .first {
+  color: #2b2b2b;
+  top: 50px;
+  left: -400px;
+  position: absolute;
+}
+
+#carousel .carousel .carousel-item .first .offer {
+  font-size: 14px;
+}
+
+#carousel .carousel .carousel-item .first .offer b {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 184, 83, 0.2)), to(rgba(32, 55, 88, 0)));
+  background: linear-gradient(90deg, rgba(0, 184, 83, 0.2) 0%, rgba(32, 55, 88, 0) 100%);
+  color: #038e42;
+  border-radius: 3.125rem;
+  font-size: 20px;
+}
+
+#carousel .carousel .carousel-item .first h1 {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+#carousel .carousel .carousel-item .first .price {
+  font-size: 38px;
+  color: #d51243;
+}
+
+#carousel .carousel .carousel-item .first button {
+  border: none;
+  border-radius: 3.125rem;
+  background-color: #2bbef9;
+  color: white;
+  height: 40px;
+  width: 133px;
+}
+
+#carousel .carousel .carousel-item .second {
+  color: #2b2b2b;
+  top: 50px;
+  left: -400px;
+  position: absolute;
+}
+
+#carousel .carousel .carousel-item .second .offer {
+  font-size: 14px;
+}
+
+#carousel .carousel .carousel-item .second .offer b {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 184, 83, 0.2)), to(rgba(32, 55, 88, 0)));
+  background: linear-gradient(90deg, rgba(0, 184, 83, 0.2) 0%, rgba(32, 55, 88, 0) 100%);
+  color: #038e42;
+  border-radius: 3.125rem;
+  font-size: 20px;
+}
+
+#carousel .carousel .carousel-item .second h1 {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+#carousel .carousel .carousel-item .second .price {
+  font-size: 38px;
+  color: #d51243;
+}
+
+#carousel .carousel .carousel-item .second button {
+  border: none;
+  border-radius: 3.125rem;
+  background-color: #2bbef9;
+  color: white;
+  height: 40px;
+  width: 133px;
+}
+
+#category-card .beverages {
+  height: 290.4px;
+  width: 190px;
+  border: 1px solid rgba(151, 151, 151, 0.5);
+  text-align: center;
+  padding-top: 30px;
+}
+
+#category-card .beverages a {
+  text-decoration: none;
+  color: #202435;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  cursor: pointer;
+}
+
+#category-card .beverages p {
+  font-size: 12px;
+  font-family: "Inter", sans-serif;
+}
+
+#category-card .beverages img {
+  height: 160px;
+  width: 155px;
+}
+
+#category-card .biscuits-snacks {
+  height: 145.2px;
+  width: 239px;
+  border: 1px solid rgba(151, 151, 151, 0.5);
+  padding-top: 30px;
+  padding-left: 20px;
+}
+
+#category-card .biscuits-snacks img {
+  height: 70px;
+  width: 70px;
+}
+
+#category-card .biscuits-snacks a {
+  text-decoration: none;
+  color: #202435;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  cursor: pointer;
+}
+
+#category-card .biscuits-snacks p {
+  font-size: 12px;
+  font-family: "Inter", sans-serif;
+}
+
+#category-card .breads-bakery {
+  height: 145.2px;
+  width: 239px;
+  border: 1px solid rgba(151, 151, 151, 0.5);
+  padding-top: 30px;
+  padding-left: 20px;
+}
+
+#category-card .breads-bakery img {
+  height: 70px;
+  width: 70px;
+}
+
+#category-card .breads-bakery a {
+  text-decoration: none;
+  color: #202435;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  cursor: pointer;
+}
+
+#category-card .breads-bakery p {
+  font-size: 12px;
+  font-family: "Inter", sans-serif;
+}
+
+#category-card .breakfast-dairy {
+  height: 145.2px;
+  width: 239px;
+  border: 1px solid rgba(151, 151, 151, 0.5);
+  padding-top: 30px;
+  padding-left: 20px;
+}
+
+#category-card .breakfast-dairy img {
+  height: 70px;
+  width: 70px;
+}
+
+#category-card .breakfast-dairy a {
+  text-decoration: none;
+  color: #202435;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  cursor: pointer;
+}
+
+#category-card .breakfast-dairy p {
+  font-size: 12px;
+  font-family: "Inter", sans-serif;
+}
+
+#category-card .frozen-foods {
+  height: 145.2px;
+  width: 239px;
+  border: 1px solid rgba(151, 151, 151, 0.5);
+  padding-top: 30px;
+  padding-left: 20px;
+}
+
+#category-card .frozen-foods img {
+  height: 70px;
+  width: 70px;
+}
+
+#category-card .frozen-foods a {
+  text-decoration: none;
+  color: #202435;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  cursor: pointer;
+}
+
+#category-card .frozen-foods p {
+  font-size: 12px;
+  font-family: "Inter", sans-serif;
 }
 /*# sourceMappingURL=home.css.map */
