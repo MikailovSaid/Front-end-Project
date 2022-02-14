@@ -1076,4 +1076,312 @@
   font-size: 12px;
   font-family: "Inter", sans-serif;
 }
+
+#deal-category .deals-of-week {
+  width: 390px;
+  border: 2px solid #cf2e2e;
+  border-radius: 8px;
+  padding-top: 30px;
+  padding-left: 20px;
+}
+
+#deal-category .deals-of-week .clock {
+  position: relative !important;
+  padding-top: 0px;
+  margin-left: -184px;
+  height: 100px;
+  width: 800px;
+  zoom: 0.8;
+  transform: scale(0.54);
+  -ms-transform: scale(0.54);
+  -webkit-transform: scale(0.54);
+  -o-transform: scale(0.54);
+  -moz-transform: scale(0.54);
+}
+
+#deal-category .deals-of-week .img-wrapper {
+  position: relative;
+}
+
+#deal-category .deals-of-week .img-wrapper .img img {
+  width: 350px;
+  height: 314px;
+}
+
+#deal-category .deals-of-week .img-wrapper .deal-discount {
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+  background-color: #ed174a;
+  color: white;
+  font-size: 1.5rem;
+  padding-top: 17px;
+  padding-left: 14px;
+  position: absolute;
+  top: 1.875rem;
+  left: 1.875rem;
+}
+
+#deal-category .deals-of-week .first {
+  font-size: 22px;
+  color: #223a95;
+}
+
+#deal-category .deals-of-week .second {
+  font-size: 12px;
+  color: #979797;
+}
+
+#deal-category .deals-of-week .price {
+  color: #ed174a;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+#deal-category .deals-of-week .name {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+#deal-category .deals-of-week .third {
+  font-size: 12px;
+  color: #979797;
+}
+
+#deal-category .deals-of-week .third b {
+  color: #00b853;
+}
+
+#deal-category .deals-of-week .stars {
+  color: #ffd900;
+  font-size: 12px;
+}
+
+#deal-category .deals-of-week .stars span {
+  color: #979797;
+}
+
+#deal-category .deals-of-week .four {
+  color: #979797;
+  font-size: 12px;
+  padding-left: 260px;
+}
+
+#deal-category .deals-of-week .four b {
+  color: #223a95;
+  font-size: 16px;
+}
+
+#deal-category .deals-of-week .gradient {
+  height: 10px;
+  width: 92%;
+  background: -webkit-gradient(linear, left top, right top, from(#ff0000), to(#ff9900));
+  background: linear-gradient(to right, #ff0000 0%, #ff9900 100%);
+  border-radius: 3.125rem;
+}
+
+#deal-category .content-wrapper {
+  border: 1px solid rgba(151, 151, 151, 0.5);
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  width: 221.66px;
+}
+
+#deal-category .content-wrapper:hover {
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#deal-category .content-wrapper:hover .add-cart-btn {
+  visibility: visible;
+}
+
+#deal-category .content-wrapper .content .img-wrapper {
+  position: relative;
+}
+
+#deal-category .content-wrapper .content .img-wrapper .img img {
+  width: 219.66px;
+  height: 199.66px;
+}
+
+#deal-category .content-wrapper .content .img-wrapper .text {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+#deal-category .content-wrapper .content .img-wrapper .text .procent {
+  border-radius: 5px;
+  background-color: #2bbef9;
+  color: white;
+  width: 45px;
+  height: 24px;
+  padding-left: 14px;
+  padding-top: 4px;
+  font-size: 10px;
+}
+
+#deal-category .content-wrapper .content .img-wrapper .text .recom {
+  border-radius: 5px;
+  background-color: #9b9bb4;
+  color: white;
+  width: 90px;
+  height: 24px;
+  padding-left: 8px;
+  padding-top: 4px;
+  margin-top: 3px;
+  font-size: 10px;
+}
+
+#deal-category .content-wrapper .content .name {
+  font-size: .875rem;
+  font-weight: 500;
+  line-height: 1.4;
+  padding-left: 10px;
+}
+
+#deal-category .content-wrapper .content .first {
+  color: #00b853;
+  font-size: 12px;
+  padding-left: 10px;
+}
+
+#deal-category .content-wrapper .content .stars {
+  color: #ffd900;
+  font-size: 12px;
+  padding-left: 10px;
+}
+
+#deal-category .content-wrapper .content .stars .last {
+  color: rgba(151, 151, 151, 0.5);
+}
+
+#deal-category .content-wrapper .content .stars .two-last {
+  color: rgba(151, 151, 151, 0.5);
+}
+
+#deal-category .content-wrapper .content .stars span {
+  color: #979797;
+}
+
+#deal-category .content-wrapper .content .price {
+  color: #ed174a;
+  font-size: 18px;
+  font-weight: 500;
+  padding-left: 10px;
+}
+
+#deal-category .content-wrapper .add-cart-btn {
+  z-index: 100;
+  position: absolute;
+  visibility: hidden;
+  padding-bottom: 20px;
+  text-align: center;
+  width: 221.66px;
+  left: 15px;
+  background-color: white;
+  border-bottom: 1px solid rgba(151, 151, 151, 0.5);
+  border-left: 1px solid rgba(151, 151, 151, 0.5);
+  border-right: 1px solid rgba(151, 151, 151, 0.5);
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+#deal-category .content-wrapper .add-cart-btn button {
+  color: white;
+  background-color: #233a95;
+  border: none;
+  border-radius: 3.125rem;
+  width: 90%;
+  font-size: 14px;
+  height: 30px;
+}
+
+#weekend-discount .first-img {
+  position: relative;
+}
+
+#weekend-discount .first-img img {
+  border-radius: 8px;
+  width: 555px;
+}
+
+#weekend-discount .first-img .content {
+  position: absolute;
+  top: 50px;
+  left: 40px;
+}
+
+#weekend-discount .first-img .content .discount {
+  color: #FF6048;
+  font-size: .875rem;
+  font-weight: 600;
+}
+
+#weekend-discount .first-img .content h3 {
+  color: #3e445a;
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: -.8px;
+}
+
+#weekend-discount .first-img .content .first {
+  color: #3E445A;
+  font-size: .75rem;
+}
+
+#weekend-discount .first-img .content button {
+  font-size: .75rem;
+  height: 2.125rem;
+  border-radius: 1.875rem !important;
+  color: white;
+  background-color: #233a95;
+  width: 99.85px;
+  border: none;
+}
+
+#weekend-discount .second-img {
+  position: relative;
+  margin-left: 15px;
+}
+
+#weekend-discount .second-img img {
+  border-radius: 8px;
+  width: 555px;
+}
+
+#weekend-discount .second-img .content {
+  position: absolute;
+  top: 50px;
+  left: 40px;
+}
+
+#weekend-discount .second-img .content .discount {
+  color: #FF6048;
+  font-size: .875rem;
+  font-weight: 600;
+}
+
+#weekend-discount .second-img .content h3 {
+  color: #3e445a;
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: -.8px;
+}
+
+#weekend-discount .second-img .content .first {
+  color: #3E445A;
+  font-size: .75rem;
+}
+
+#weekend-discount .second-img .content button {
+  font-size: .75rem;
+  height: 2.125rem;
+  border-radius: 1.875rem !important;
+  color: white;
+  background-color: #ed174a;
+  width: 99.85px;
+  border: none;
+}
 /*# sourceMappingURL=home.css.map */
