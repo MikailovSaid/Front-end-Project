@@ -1,3 +1,169 @@
+#login-register {
+  margin-top: 50px;
+}
+
+#login-register h2 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+#login-register label {
+  font-size: 14px;
+}
+
+#login-register span {
+  font-size: 12px;
+}
+
+#login-register .login-pass {
+  display: inline-block;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  height: 40px;
+  width: 100%;
+  background-color: #f3f4f7;
+  border: none;
+}
+
+#login-register .login-pass:focus {
+  outline: none;
+}
+
+#login-register button {
+  border: none;
+  border-radius: 5px;
+  background-color: #233a95;
+  color: white;
+  height: 2.5rem;
+  font-size: .875rem;
+  font-weight: 500;
+  width: 82.54px;
+}
+
+#login-register a {
+  color: #2bbef9;
+}
+
+#login-register p {
+  font-size: 14px;
+}
+
+#login-register p a {
+  color: #ed174a;
+}
+
+#contact-page {
+  margin-top: 50px;
+}
+
+#contact-page .contact-head {
+  text-align: center;
+  font-family: "Inter", sans-serif;
+}
+
+#contact-page .contact-head h1 {
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+#contact-page .contact-head p {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+#contact-page .contact-info {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#contact-page .contact-info .content {
+  background-color: #f3f3f6;
+  border-radius: 8px;
+  height: 202px;
+  padding-top: 40px;
+  font-family: "Inter", sans-serif;
+}
+
+#contact-page .contact-info .content i {
+  font-size: 2.25rem;
+  color: #233a95;
+}
+
+#contact-page .contact-info .content .first {
+  padding-top: 20px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+#contact-page .contact-info .content p {
+  font-size: .8125rem;
+}
+
+#send-us .content {
+  margin-top: 70px;
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding-left: 182px;
+  padding-right: 182px;
+  padding-top: 70px;
+  padding-bottom: 50px;
+}
+
+#send-us .content .header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#send-us .content .header h1 {
+  font-size: 2.5rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+
+#send-us .content .header p {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+#send-us .content form {
+  margin-top: 50px;
+}
+
+#send-us .content form input {
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  height: 46px;
+  background-color: #f3f4f7;
+  outline: none;
+  padding-left: 20px;
+}
+
+#send-us .content form textarea {
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  height: 120px;
+  background-color: #f3f4f7;
+  outline: none;
+  padding-left: 20px;
+  padding-top: 15px;
+  resize: none;
+}
+
+#send-us .content form span {
+  font-size: 14px;
+}
+
+#send-us .content form button {
+  width: 165.65px;
+  height: 46px;
+  border: none;
+  border-radius: 5px;
+  background-color: #233a95;
+  color: white;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -289,7 +455,11 @@
   height: 40px;
   padding-left: 12px;
   padding-top: 6px;
-  cursor: pointer;
+}
+
+.profile-busket .profile a {
+  text-decoration: none;
+  color: #202435;
 }
 
 .profile-busket .busket-wrapper {
